@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} bg-[#030014] text-white`}>
         {/* MOUNT THE BACKGROUND HERE */}
-        <Background />
+        {/* <Background /> */}
         
         {/* All your other components render on top of it */}
         <main className="relative z-10">

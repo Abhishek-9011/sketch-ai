@@ -3,10 +3,12 @@
 import { Tldraw, useEditor } from "tldraw";
 import { useEffect } from "react";
 import "tldraw/tldraw.css";
+import { Sidebar } from "@/components/Sidebar";
 
 export default function Page() {
   return (
-    <div className="w-screen h-screen">
+    <div className="flex w-screen h-screen">
+      <Sidebar/>
       <Tldraw>
         <CanvasListener />
       </Tldraw>
